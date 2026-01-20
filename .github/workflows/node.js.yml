@@ -20,5 +20,4 @@ jobs:
           node-version: "24.x"   # ajuste aqui para a versão desejada
 
       - run: npm install
-      - run: npm run build
       - run: npm test
